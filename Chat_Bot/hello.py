@@ -3,7 +3,7 @@ from flask import Flask, request, render_template
 
 from chatterbot import ChatBot
 from chatterbot.trainers import ListTrainer
-
+from time import get_clock_info
 
 ### rodar o FLASK ##
 app  = Flask(__name__)
