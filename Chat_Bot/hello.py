@@ -21,7 +21,7 @@ trainer.train([
 
 @app.route("/")
 def home():
-    return render_template("index.html")
+    return render_template("index.htmldir")
 
 @app.route("/get")
 def get_bot_response():
